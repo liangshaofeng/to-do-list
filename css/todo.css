@@ -1,0 +1,125 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background: url("../images/2.jpg");
+}
+.wrap{
+    width:900px;height:600px!important;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: url("../images/1.jpg");
+    border: 2px solid #ccc;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+}
+.top img{
+    vertical-align: middle;
+}
+
+
+
+.bottom{
+    width: 100%;
+    height: 520px;
+}
+.row{
+    height:100%!important;
+}
+.left{
+    height:516px;
+    position: relative;
+    border-right: 2px solid #ccc;
+}
+.search{
+    margin-top:10px;
+}
+.done{
+    margin-top:10px;
+    font-size:18px;
+    color: #fff;
+}
+.num{
+    display:inline-block;
+    width:28px;height:16px;border-radius:50%;background:red;font-size:12px;
+    line-height:18px;text-align:center;margin-left: 10px;
+}
+.listcon{
+    position: relative;
+    color: #fff;
+    width:100%;
+    margin-top: 15px;
+    font-size: 16px;
+    border-bottom: 1px dashed #ccc;
+}
+.listcon input{
+    border:0;
+    width:80%;
+    background: none !important;
+}
+.listcon input:focus{
+    outline: none;
+}
+.remove{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease;
+    position: absolute;
+    right:2px;top:4px;
+    color: #fff;
+}
+.listcon:hover .remove{
+    visibility: visible;
+    opacity: 1;
+}
+.add-list{
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+    color: #fff;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+}
+.add-list span{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+
+.right{
+    height:100%;
+}
+.header{
+    width:100%;
+    height:80px;
+    line-height: 80px;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+    color: #fff;
+}
+.header .title{
+    float:left;
+    height:80px;
+    line-height: 80px;
+    font-size:22px;
+}
+.header .add-con{
+    float:right;
+    height:80px;
+    line-height: 80px;
+    font-size:22px;
+    cursor: pointer;
+}
